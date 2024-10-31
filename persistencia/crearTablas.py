@@ -1,7 +1,7 @@
 from baseDeDatos import BaseDeDatos
 
 def crearTablas():
-    db = BaseDeDatos().connect('tablas.db') # Falta la BD
+    db = BaseDeDatos().connect('tablas.db')
     cursor = db.cursor()
 
     cursor.execute('''
